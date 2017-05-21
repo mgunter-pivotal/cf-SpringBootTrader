@@ -82,9 +82,9 @@ groups:
 maven-params: &maven-params
   MAVEN_OPTS: {{maven-opts}}
   MAVEN_CONFIG: {{maven-config}}
-  MAVEN_REPO_MIRROR: {{maven-milestone-url}}
-  MAVEN_REPO_USERNAME: {{maven-milestone-username}}
-  MAVEN_REPO_PASSWORD: {{maven-milestone-password}}
+  MAVEN_REPO_MIRROR: {{maven-mirror-url}}
+  MAVEN_REPO_USERNAME: {{maven-mirror-username}}
+  MAVEN_REPO_PASSWORD: {{maven-mirror-password}}
 
 jobs:
 - name: build-quotes
